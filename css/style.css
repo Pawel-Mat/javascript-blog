@@ -81,6 +81,48 @@ body {
   display: inline-block;
 }
 
+/* Tags */
+.post-tags a {
+  text-decoration: none;
+}
+
+.post-tags a:hover {
+  color: red;
+}
+
+.sidebar-right a {
+  text-decoration: none;
+}
+
+.sidebar-right ul li {
+  display: inline-block;
+}
+
+.tag-size-1 {
+  font-size: 100%;
+  color: #10ac84;
+}
+
+.tag-size-2 {
+  font-size: 150%;
+  color: #273c75;
+}
+
+.tag-size-3 {
+  font-size: 200%;
+  color: #8c7ae6;
+}
+
+.tag-size-4 {
+  font-size: 250%;
+  color: #c23616;
+}
+
+.tag-size-5 {
+  font-size: 300%;
+  color: #487eb0;
+}
+
 /* Authors */
 .authors li {
   margin-bottom: 12px;
