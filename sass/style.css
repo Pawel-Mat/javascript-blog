@@ -78,21 +78,43 @@ body {
   display: inline-block;
 }
 
+.sidebar-left a {
+  text-decoration: none;
+}
+
+.sidebar-left ul li a:visited {
+  color: #341f97;
+}
+
+.sidebar-left ul li a:link {
+  color: #341f97;
+}
+
+.sidebar-left ul li a:hover {
+  font-weight: bold;
+}
+
 /* Tags */
 .post-tags a {
   text-decoration: none;
 }
 
 .post-tags a:hover {
-  color: red;
+  font-weight: bold;
 }
 
 .sidebar-right a {
   text-decoration: none;
 }
 
+.sidebar-right a:hover {
+  font-weight: bold;
+}
+
 .sidebar-right ul li {
   display: inline-block;
+  line-height: 0.3;
+  padding-top: 10px;
 }
 
 .tag-size-1 {
@@ -122,7 +144,9 @@ body {
 
 /* Authors */
 .authors li {
+  display: block;
   margin-bottom: 12px;
+  padding-right: 5px;
 }
 
 /* Post */
@@ -136,6 +160,14 @@ body {
 
 .post-author {
   font-style: italic;
+}
+
+.post-author li a {
+  text-decoration: none;
+}
+
+.post-author li a:hover {
+  font-weight: bold;
 }
 
 .post-tags {
