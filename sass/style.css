@@ -115,6 +115,7 @@ body {
   display: inline-block;
   line-height: 0.3;
   padding-top: 10px;
+  padding-right: 10px;
 }
 
 .tag-size-1 {
@@ -143,7 +144,7 @@ body {
 }
 
 /* Authors */
-.authors li {
+.authors ul li span {
   display: block;
   margin-bottom: 12px;
   padding-right: 5px;

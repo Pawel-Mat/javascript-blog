@@ -91,11 +91,8 @@ body {
     display: inline-block;
   }
 }
-.sidebar-left {
-  //font-weight: bold;
-  a{
+.sidebar-left a {
     text-decoration: none;
-  }
 }
 .sidebar-left ul li{
   a:visited {color: #341f97;}
@@ -123,6 +120,7 @@ body {
     display: inline-block;
     line-height: 0.3;
     padding-top: 10px;
+    padding-right: 10px;
   }
 }
 .tag-size-1 {
@@ -149,10 +147,11 @@ body {
 /* Authors */
 
 .authors {
-  li {
+  ul li span {
     display: block;
     margin-bottom: 12px;
     padding-right: 5px;
+    
   }
 }
 
